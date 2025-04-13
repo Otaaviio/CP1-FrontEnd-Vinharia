@@ -1,0 +1,35 @@
+:root {
+  /* Cor principal para fundo - Creme Suave */
+  --clr-background: #f5f5dc;
+
+  /* Cor principal para texto - Grafite Escuro */
+  --clr-text: #36454f;
+
+  /* Cor secundária / Base - Madeira Aconchegante */
+  --clr-secondary: #a0522d;
+
+  /* Acento Principal (CTAs, links importantes) - Vinho Tinto Profundo */
+  --clr-primary-accent: #800020;
+
+  /* Acento Secundário (Detalhes, destaques sutis) - Dourado Sutil */
+  --clr-secondary-accent: #daa520;
+
+  /* Você pode adicionar variações se necessário, por exemplo: */
+  /* --clr-text-light: #FFFFFF; */
+  /* --clr-primary-accent-hover: #A00028; */ /* Um tom ligeiramente mais claro/escuro para hover */
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  vertical-align: baseline;
+  list-style: none;
+  border: 0;
+}
+
+body {
+  background-color: var(--clr-background);
+  color: var(--clr-text);
+  font-family: "Arial", sans-serif;
+  line-height: 1.5;
+}
