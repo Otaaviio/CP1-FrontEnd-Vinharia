@@ -33,3 +33,11 @@ body {
 	font-family: 'Arial', sans-serif;
 	line-height: 1.6;
 }
+
+footer {
+	text-align: center;
+	padding: 3rem 0;
+	background-color: var(--clr-secondary);
+	color: var(--clr-background);
+	font-size: 1.2rem;
+}
