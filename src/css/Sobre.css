@@ -7,11 +7,12 @@
 }
 
 /* Estilo do corpo da página */
-body {
+main {
   display: flex; /* Organiza o conteúdo em linha */
   min-height: 100vh; /* Faz a altura ocupar 100% da tela */
-  background-color: #f8d7c466; /* Cor de fundo da página */
+
   padding: 20px; /* Espaço interno ao redor do conteúdo */
+  margin-top: 60px;
 }
 
 /* Parte da esquerda (onde fica o texto da vinheria) */
@@ -21,7 +22,7 @@ body {
   justify-content: center; /* Centraliza o conteúdo na horizontal */
   align-items: center; /* Centraliza o conteúdo na vertical */
   padding: 40px;
-  background-color: #f3dada; /* Cor de fundo suave */
+  background-color: #4a4545; /* Cor de fundo suave */
   border-radius: 10px; /* Cantos arredondados */
   margin-right: 20px; /* Espaço entre a esquerda e a direita */
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra leve */
@@ -35,7 +36,7 @@ body {
   background-color: #781f1f; /* Cor vinho escuro */
   padding: 30px;
   border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 10px white;
 }
 
 /* Área com os textos de contato */
@@ -104,17 +105,30 @@ form button:hover {
 
 /* Estilo do título "Conheça a Vinheria Agnello" */
 .texto-vinheria h2 {
+  font-family: Georgia, "Times New Roman", Times, serif;
   text-align: center;
   margin-bottom: 20px;
-  color: #8b0000;
+  color: #f7f4f4;
   font-size: 28px;
   position: relative;
-  top: -40px; /* Move o título um pouco mais para cima */
+  top: -1px; /* Move o título um pouco mais para cima */
 }
 
 /* Estilo do parágrafo com a história da vinheria */
 .texto-vinheria p {
+  color: #fff;
   margin-top: 50px; /* Espaço acima do parágrafo */
   position: relative;
   top: 0;
+}
+
+.imagem-vinho {
+  width: 700px; /* Tamanho da imagem */
+
+  margin-top: 30px; /* Espaço entre o texto e a imagem */
+  border-radius: 10px; /* Cantos arredondados (opcional) */
+  display: block;
+  margin-left: auto;
+  margin-right: auto; /* Isso centraliza horizontalmente */
+  transform: translateX(-40px);
 }
