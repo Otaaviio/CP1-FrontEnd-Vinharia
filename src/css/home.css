@@ -1,0 +1,103 @@
+.nav {
+  position: fixed;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px 0px;
+  background: #262523;
+  color: white;
+  top: 0px;
+}
+
+.nav a {
+  color: white;
+  text-decoration: none;
+  margin: 10 100px;
+  font-size: 1rem;
+}
+
+.hero {
+  font-family: Georgia, sans-serif;
+  background-color: #262523;
+  background-position: bottom 100px right 200px;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+  padding: 50px;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  letter-spacing: 2px;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+  margin: 0.5rem;
+}
+
+.logo img {
+  width: 300px;
+  height: auto;
+}
+
+.linha {
+  height: 2px;
+  background-color: #c2a878;
+  margin: 10px auto;
+  width: 60%;
+}
+
+h1 {
+  font-size: 60px;
+  margin: 20px 0;
+  font-weight: bold;
+}
+
+.author {
+  font-family: Georgia, sans-serif;
+  margin-top: 30px;
+  font-size: 1 0px;
+  color: whitesmoke;
+  height: 20px;
+  letter-spacing: 1px;
+  margin-bottom: 30px;
+  border-bottom: 2px solid #c2a878;
+}
+
+.menu {
+  display: flex;
+  gap: 20px;
+}
+
+.secao {
+  font-family: sans-serif;
+  height: 100vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 3rem;
+  background-color: white;
+  color: #262523;
+  border-bottom: 2px solid #333;
+  font-size: 20px;
+  margin: auto;
+  padding: 20px 10%;
+  gap: 5vw;
+}
+
+.familiaAgnello {
+  max-width: 100%;
+  height: auto;
+  border-radius: 20px;
+}
+
+.item-image {
+  flex: 1;
+}
+
+.item-text {
+  flex: 1;
+}

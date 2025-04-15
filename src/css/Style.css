@@ -1,0 +1,67 @@
+:root {
+	/* Cor principal para fundo - Creme Suave */
+	--clr-background: #f5f5dc;
+
+	/* Cor principal para texto - Grafite Escuro */
+	--clr-text: #36454f;
+
+	/* Cor secundária / Base - Madeira Aconchegante */
+	--clr-secondary: #a0522d;
+
+	/* Acento Principal (CTAs, links importantes) - Vinho Tinto Profundo */
+	--clr-primary-accent: #800020;
+
+	/* Acento Secundário (Detalhes, destaques sutis) - Dourado Sutil */
+	--clr-secondary-accent: #daa520;
+
+	/* Você pode adicionar variações se necessário, por exemplo: */
+	/* --clr-text-light: #FFFFFF; */
+	/* --clr-primary-accent-hover: #A00028; */ /* Um tom ligeiramente mais claro/escuro para hover */
+}
+
+* {
+	padding: 0;
+	margin: 0;
+	vertical-align: baseline;
+	list-style: none;
+	border: 0;
+}
+
+body {
+	background-color: var(--clr-background);
+	color: var(--clr-text);
+	font-family: 'Arial', sans-serif;
+	line-height: 1.5;
+}
+
+footer {
+	text-align: center;
+	padding: 3rem 0;
+	background-color: var(--clr-secondary);
+	color: var(--clr-background);
+	font-size: 1.2rem;
+}
+
+nav {
+	position: fixed;
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	padding: 20px 0px;
+	background: #262523;
+	color: white;
+	top: 0px;
+}
+
+nav a {
+	color: white;
+	text-decoration: none;
+	margin: 10 100px;
+	font-size: 1rem;
+}
+
+.menu {
+	display: flex;
+	gap: 20px;
+}
