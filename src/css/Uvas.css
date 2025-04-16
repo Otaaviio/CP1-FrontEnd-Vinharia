@@ -1,10 +1,31 @@
+header {
+  text-align: center;
+  padding: 20vh 0px;
+}
+
+header p {
+  color: var(--clr-secondary-accent);
+}
+
+header h1 {
+  font-size: 4em;
+}
+
 .item-image {
-  border-radius: 40px;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  max-width: 1200px;
-  margin-left: 250px;
-  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.item-image img {
+  max-width: 25vw;
+  height: auto;
+  border-radius: 10px;
+}
+
+.item-image figure {
+  margin: 40px 40px;
 }
 
 .secao {
@@ -62,4 +83,8 @@ thead {
   align-items: center;
   text-align: center;
   padding: 0 20px;
+}
+
+.uvas {
+  margin: auto;
 }
