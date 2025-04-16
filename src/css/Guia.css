@@ -1,0 +1,69 @@
+header {
+	margin-top: 60px;
+	padding: 10vh 0px;
+	text-align: center;
+}
+
+header p {
+	color: var(--clr-secondary-accent);
+}
+
+header h1 {
+	font-size: 4em;
+}
+
+h2 {
+	color: #781f1f;
+	margin-bottom: 15px;
+}
+
+main {
+	padding: 0px 20%;
+}
+
+.guia-intro {
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+.guia-list-item {
+	margin-bottom: 20px;
+}
+
+.guia-list-item p {
+	margin-left: 20px;
+}
+
+.guia-list-item li {
+	margin-left: 40px;
+}
+
+#guia-list ul {
+	margin: 20px 0px;
+}
+
+.img-vinho-carne {
+	border-radius: 20px;
+	height: 300px;
+	width: auto;
+	margin-left: 20px;
+	margin-top: 20px;
+}
+
+#guia-video {
+	margin-top: 40px;
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	margin-bottom: 120px;
+}
+
+.guia-conclusao {
+	margin-top: 40px;
+	font-size: large;
+	line-height: 2;
+	background-color: #f5e7c0;
+	padding: 10px 10px;
+	border-radius: 20px;
+	border: 1px dotted #daa520;
+}
