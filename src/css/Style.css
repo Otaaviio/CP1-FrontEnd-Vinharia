@@ -66,6 +66,14 @@ nav a {
   display: flex;
   gap: 20px;
 }
+
 form h3 {
   color: #ffffff; /* ou qualquer cor que você quiser */
+}
+  
+.linha {
+  height: 2px;
+  background-color: #c2a878;
+  margin: 10px auto;
+  width: 60%;
 }

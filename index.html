@@ -3,78 +3,110 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Vinharia Agnello</title>
+    <meta name="keywords" content="vinhos, catalogo, vinharia, agnello" />
     <link rel="stylesheet" href="./src/css/Style.css" />
-    <link rel="stylesheet" href="./src/css/home.css" />
+    <link rel="stylesheet" href="./src/css/Home.css" />
   </head>
 
   <body>
-    <div class="nav">
-      <a href="../../index.html">VINHARIA AGNELLO</a>
+    <nav>
+      <a href="#">VINHARIA AGNELLO</a>
       <div class="menu">
-        <a href="../pages/catalogo.html">Catálogo</a>
-        <a href="../pages/guia-escolhas.html">Guia</a>
-        <a href="../pages/tipos-uvas.html">Uvas</a>
-        <a href="../pages/sobre.html">História</a>
+        <a href="src/pages/catalogo.html">Catálogo</a>
+        <a href="src/pages/guia-escolhas.html">Guia</a>
+        <a href="src/pages/tipos-uvas.html">Uvas</a>
+        <a href="src/pages/sobre.html">História</a>
       </div>
-    </div>
+    </nav>
+    <main>
+      <div class="hero">
+        <div class="logo">
+          <img src="./src/assets/imgs/uva.png " alt="Logo Uva" />
+        </div>
 
-    <div class="hero">
-      <div class="logo">
-        <img src="./src/assets/imgs/uva.png " alt="Logo Uva" />
-      </div>
+        <div class="linha"></div>
 
-      <div class="linha"></div>
+        <h1>AGNELLO'S<br />VINEYARD</h1>
 
-      <h1>AGNELLO'S<br />VINEYARD</h1>
+        <div class="linha"></div>
 
-      <div class="linha"></div>
-
-      <h3 class="autor">Há mais de 15 anos</h3>
-    </div>
-
-    <section id="sobre" class="secao">
-      <div class="item-text">
-        <h2>Sobre Nós</h2>
-        <br />
-
-        <p>
-          O mundo dos vinhos é vasto e diverso, com milhares de variedades e
-          fatores que influenciam sabor e qualidade. Como é impossível conhecer
-          todos, a melhor forma de acertar na escolha é combinando estudo,
-          trocas de experiência e degustações, valorizando a ocasião e a boa
-          companhia.
-        </p>
-
-        <br />
-
-        <p>
-          Nesse sentido, a mais de 15 anos no mercado, a Vinharia da Família
-          Agnello se dedica a entender o que você procura, oferecendo vinhos
-          selecionados para tornar seus momentos em família ainda mais especiais
-          — ou para presentear alguém querido com bom gosto e elegância.
-        </p>
-
-        <br />
-
-        <p>
-          Os vinhos são sensíveis à luz, ao calor e a movimentações, o que pode
-          comprometer suas características. Por isso, a Vinheria Agnello adota
-          cuidados rigorosos de armazenamento, como adegas climatizadas, criando
-          o ambiente ideal para cada vinho. Assim, preservamos a qualidade
-          original, especialmente de rótulos raros e de alto valor.
-        </p>
+        <h3 class="autor">Há mais de 15 anos</h3>
       </div>
 
-      <div class="item-image">
-        <img
-          class="familiaAgnello"
-          src="./src/assets/imgs/familiaAgnello.png"
-          alt="Familia Agnello"
-        />
-      </div>
-    </section>
+      <section id="sobre" class="secao">
+        <div class="item-text">
+          <h2>Sobre Nós</h2>
+          <br />
 
+          <p>
+            O mundo dos vinhos é vasto e diverso, com milhares de variedades e
+            fatores que influenciam sabor e qualidade. Como é impossível
+            conhecer todos, a melhor forma de acertar na escolha é combinando
+            estudo, trocas de experiência e degustações, valorizando a ocasião e
+            a boa companhia.
+          </p>
+
+          <br />
+
+          <p>
+            Nesse sentido, a mais de 15 anos no mercado, a Vinharia da Família
+            Agnello se dedica a entender o que você procura, oferecendo vinhos
+            selecionados para tornar seus momentos em família ainda mais
+            especiais — ou para presentear alguém querido com bom gosto e
+            elegância.
+          </p>
+
+          <br />
+
+          <p>
+            Os vinhos são sensíveis à luz, ao calor e a movimentações, o que
+            pode comprometer suas características. Por isso, a Vinheria Agnello
+            adota cuidados rigorosos de armazenamento, como adegas climatizadas,
+            criando o ambiente ideal para cada vinho. Assim, preservamos a
+            qualidade original, especialmente de rótulos raros e de alto valor.
+          </p>
+        </div>
+
+        <div class="item-image">
+          <img
+            class="image"
+            src="./src/assets/imgs/familiaAgnello.png"
+            alt="Familia Agnello"
+          />
+        </div>
+      </section>
+      <section>
+        <div>
+          <div class="linha"></div>
+          <h2 class="titleAdega">CONHEÇA NOSSA ALEGRIA</h2>
+          <div class="linha"></div>
+        </div>
+        <div id="conheca" class="secao">
+          <div>
+            <img class="image" src="/src/assets/imgs/adega.png" alt="adega" />
+          </div>
+          <div>
+            <p>
+              Seja muito bem-vindo a um espaço onde cada garrafa conta uma
+              história e cada sabor desperta novas experiências. Convido você a
+              conhecer nossa adega, cuidadosamente selecionada para oferecer os
+              melhores rótulos e momentos inesquecíveis. Aqui, tradição e
+              qualidade se encontram em um ambiente feito para quem aprecia o
+              melhor da vida. Venha descobrir vinhos que combinam com cada
+              ocasião e surpreenda seu paladar. Vai ser um prazer receber você!
+            </p>
+            <br>
+            <button
+              onclick="document.location.href='/src/pages/catalogo.html'"
+              class="item-button"
+            >
+              Catálogo
+            </button>
+          </div>
+        </div>
+      </section>
+    </main>
   </body>
 
   <footer>
