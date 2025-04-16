@@ -1,30 +1,43 @@
 header {
-  text-align: center;
-  margin-bottom: 40px;
-  font-family: Georgia, "Times New Roman", Times, serif;
-}
-
-header h1 {
-  color: #080808;
-  font-size: 36px;
+	margin-top: 60px;
+	padding: 10vh 0px;
+	text-align: center;
 }
 
 header p {
-  font-size: 18px;
-  color: #5c3b3b;
+	color: var(--clr-secondary-accent);
 }
 
-section {
-  margin-bottom: 40px;
+header h1 {
+	font-size: 4em;
 }
 
 h2 {
-  color: #781f1f;
-  margin-bottom: 15px;
-  margin-right: 10px;
+	color: #781f1f;
+	margin-bottom: 15px;
 }
 
-ul {
-  list-style: circle;
-  padding-left: 20px;
+main {
+	padding: 0px 20%;
+}
+
+.guia-intro {
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+.guia-list-item {
+	margin-bottom: 20px;
+}
+
+.guia-list-item p {
+	margin-left: 20px;
+}
+
+.guia-list-item li {
+	margin-left: 40px;
+}
+
+#guia-list ul {
+	margin: 20px 0px;
 }
