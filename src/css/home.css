@@ -67,37 +67,71 @@ h1 {
   margin-bottom: 30px;
 }
 
-.menu {
-  display: flex;
-  gap: 20px;
-}
-
 .secao {
   font-family: sans-serif;
-  height: 100vh;
   display: flex;
   justify-content: space-around;
   align-items: center;
   font-size: 3rem;
-  background-color: white;
+  background-color: #f5f5dc;
   color: #262523;
-  border-bottom: 2px solid #333;
   font-size: 20px;
   margin: auto;
-  padding: 20px 10%;
+  padding: 5% 10%;
   gap: 5vw;
 }
 
-.familiaAgnello {
-  max-width: 100%;
-  height: auto;
+.image{
   border-radius: 20px;
+  width: 600px;
+  height: auto;
 }
 
-.item-image {
-  flex: 1;
+.titleAdega {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+
+.item-button {
+	margin: ;
+	width: 50%;
+	color: #ecf0f1;
+	font-size: 17px;
+	background-color: var(--clr-primary-accent);
+	border: 1px solid #35010e;
+	border-radius: 5px;
+	cursor: pointer;
+	padding: 10px;
+	box-shadow: 0px 6px 0px #520015;
+	transition: all 0.1s;
+}
+
+.item-button:active {
+	box-shadow: 0px 2px 0px var(--clr-primary-accent);
+	position: relative;
+	top: 2px;
 }
 
 .item-text {
-  flex: 1;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: left;
+	font-size: 1em;
+}
+
+.item-image {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+}
+
+.item-image img {
+	max-width: 25vw;
+	height: auto;
+	border-radius: 10px;
 }

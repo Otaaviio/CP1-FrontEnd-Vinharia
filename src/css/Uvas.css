@@ -1,0 +1,65 @@
+.item-image {
+  border-radius: 40px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  max-width: 1200px;
+  margin-left: 250px;
+  padding: 10px;
+}
+
+.secao {
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 30px;
+}
+
+.card {
+  background: black;
+  padding: 20px;
+  border-radius: 10px;
+  width: 250px;
+}
+
+.card h3 {
+  margin-top: 0;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 30px;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+}
+
+th,
+td {
+  padding: 15px;
+  text-align: center;
+}
+
+thead {
+  background-color: #c2a878;
+}
+.hero {
+  height: 100vh;
+  background: url("42f63637-6cdc-4a22-9f8a-68b2ba31062a.png") center/cover
+    no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0 20px;
+}

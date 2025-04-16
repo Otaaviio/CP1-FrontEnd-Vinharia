@@ -122,8 +122,8 @@ O arquivo `README.md` deve conter:
 -   [ ] Tags semânticas aplicadas corretamente
 -   [ ] Meta tags (`keywords`, `description`) em cada página
 -   [ ] Estilos com CSS usando classes e ids
--   [ ] Box Model aplicado (margin, padding, border)
--   [ ] Algum elemento com `position` aplicado
+-   [x] Box Model aplicado (margin, padding, border)
+-   [x] Algum elemento com `position` aplicado
 -   [ ] Imagens em todas as páginas
 -   [ ] Vídeo inserido
 -   [x] Menu de navegação funcional
