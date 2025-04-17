@@ -47,7 +47,7 @@ header h1 {
 }
 
 .item-image img {
-	max-width: 25vw;
+	max-width: 20vw;
 	height: auto;
 	border-radius: 10px;
 }
