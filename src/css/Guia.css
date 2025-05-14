@@ -52,10 +52,12 @@ main {
 
 #guia-video {
 	margin-top: 40px;
-	display: flex;
-	flex-direction: column;
-	gap: 10px;
+	display: inline-block;
 	margin-bottom: 120px;
+}
+
+#guia-video iframe {
+	margin-top: 10px;
 }
 
 .guia-conclusao {

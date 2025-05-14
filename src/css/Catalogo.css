@@ -14,16 +14,18 @@ header h1 {
 .item {
 	margin: auto;
 	width: 60%;
-	display: flex;
-	gap: 5vw;
 	margin-bottom: 10rem;
+	text-align: left;
+}
+
+.item-text,
+.item-image {
+	display: inline-block;
+	vertical-align: top;
+	width: 48%;
 }
 
 .item-text {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	text-align: left;
 	font-size: 1em;
 }
 
@@ -39,15 +41,8 @@ header h1 {
 	font-size: 3em;
 }
 
-.item-image {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	width: 100%;
-}
-
 .item-image img {
-	max-width: 20vw;
+	max-width: 60%;
 	height: auto;
 	border-radius: 10px;
 }
@@ -63,7 +58,6 @@ header h1 {
 	cursor: pointer;
 	padding: 10px;
 	box-shadow: 0px 6px 0px #520015;
-	transition: all 0.1s;
 }
 
 .item-button:active {

@@ -16,10 +16,10 @@ O projeto é composto pelas seguintes páginas e arquivos:
 
 ### Páginas:
 
-- **`index.html`**: Página inicial com uma introdução sobre a Vinheria Agnello.
-- **`sobre.html`**: Página dedicada à história da vinheria, informações de contato e formulário para envio de mensagens.
-- **`guia.html`**: Página com um guia interativo sobre como escolher o vinho ideal para diferentes ocasiões.
-- **`style.css`**: Arquivo de estilo que contém a formatação e o design visual de todas as páginas do site.
+-   **`index.html`**: Página inicial com uma introdução sobre a Vinheria Agnello.
+-   **`sobre.html`**: Página dedicada à história da vinheria, informações de contato e formulário para envio de mensagens.
+-   **`guia.html`**: Página com um guia interativo sobre como escolher o vinho ideal para diferentes ocasiões.
+-   **`style.css`**: Arquivo de estilo que contém a formatação e o design visual de todas as páginas do site.
 
 ### Estrutura de pastas:
 
@@ -29,9 +29,9 @@ O projeto é composto pelas seguintes páginas e arquivos:
 
 Este projeto foi desenvolvido por um time de estudantes apaixonados por vinhos e tecnologia. Os integrantes do grupo são:
 
-- **Otavio Inaba**
-- **Henrique Guedes**
-- **Henrique Castro de Matos**
+-   **Otavio Inaba**
+-   **Henrique Guedes**
+-   **Henrique Castro de Matos**
 
 ---
 
@@ -56,3 +56,9 @@ Abra o terminal e clone o repositório para a sua máquina:
 ```bash
 git clone https://github.com/Otaaviio/CP1-FrontEnd-Vinharia.git
 ```
+
+## 💫 **Efeitos Visuais**
+
+-   .item-button:active - Catalogo.css
+-   .item-button:active - Home.css
+-   form button:hover - Sobre.css
