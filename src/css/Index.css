@@ -93,7 +93,7 @@ h1 {
 	width: 50%;
 	color: #ecf0f1;
 	font-size: 17px;
-	background-color: var(--clr-primary-accent);
+	background-color: #800020;
 	border: 1px solid #35010e;
 	border-radius: 5px;
 	cursor: pointer;
@@ -102,7 +102,7 @@ h1 {
 }
 
 .item-button:active {
-	box-shadow: 0px 2px 0px var(--clr-primary-accent);
+	box-shadow: 0px 2px 0px #800020;
 	position: relative;
 	top: 2px;
 }

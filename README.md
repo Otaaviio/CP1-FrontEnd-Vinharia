@@ -59,6 +59,11 @@ git clone https://github.com/Otaaviio/CP1-FrontEnd-Vinharia.git
 
 ## 💫 **Efeitos Visuais**
 
--   .item-button:active - Catalogo.css
--   .item-button:active - Home.css
--   form button:hover - Sobre.css
+-   Nas telas Catalogo e Home - .item-button:active:
+    -   Quando o botão é pressionado, ele cria um efeito de clique físico, movendo-se 2px para baixo e exibindo uma sombra na cor #800020.
+-   Na tela Sobre - form button:hover:
+    -   Ao passar o cursor sobre o botão do formulário, o fundo muda para a cor vermelho escuro #a60000, destacando a interação.
+-   Na tela Catálogo, foi aplicada uma animação CSS que faz os itens surgirem com suavidade:
+    -   Itens pares: deslizam da direita para o centro.
+    -   Itens ímpares: deslizam da esquerda para o centro.
+    -   A animação é suave, com duração de 1 segundo e efeito ease-out.

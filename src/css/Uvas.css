@@ -4,7 +4,7 @@ header {
 }
 
 header p {
-	color: var(--clr-secondary-accent);
+	color: #daa520;
 }
 
 header h1 {

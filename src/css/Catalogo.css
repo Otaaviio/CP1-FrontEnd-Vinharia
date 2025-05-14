@@ -4,7 +4,7 @@ header {
 }
 
 header p {
-	color: var(--clr-secondary-accent);
+	color: #daa520;
 }
 
 header h1 {
@@ -16,6 +16,11 @@ header h1 {
 	width: 60%;
 	margin-bottom: 10rem;
 	text-align: left;
+	animation: MoveToRightfadeIn 1s ease-out;
+}
+
+.item:nth-child(odd) {
+	animation: MoveToLeftfadeIn 1s ease-out;
 }
 
 .item-text,
@@ -30,7 +35,7 @@ header h1 {
 }
 
 .item-type {
-	color: var(--clr-secondary-accent);
+	color: #daa520;
 }
 
 .item-description {
@@ -52,7 +57,7 @@ header h1 {
 	width: 50%;
 	color: #ecf0f1;
 	font-size: 17px;
-	background-color: var(--clr-primary-accent);
+	background-color: #800020;
 	border: 1px solid #35010e;
 	border-radius: 5px;
 	cursor: pointer;
@@ -61,7 +66,29 @@ header h1 {
 }
 
 .item-button:active {
-	box-shadow: 0px 2px 0px var(--clr-primary-accent);
+	box-shadow: 0px 2px 0px #800020;
 	position: relative;
 	top: 2px;
+}
+
+@keyframes MoveToLeftfadeIn {
+	0% {
+		opacity: 0;
+		transform: translateX(20%);
+	}
+	100% {
+		opacity: 1;
+		transform: translateX(0px);
+	}
+}
+
+@keyframes MoveToRightfadeIn {
+	0% {
+		opacity: 0;
+		transform: translateX(-20%);
+	}
+	100% {
+		opacity: 1;
+		transform: translateX(0px);
+	}
 }
