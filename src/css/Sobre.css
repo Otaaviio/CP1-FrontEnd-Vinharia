@@ -44,7 +44,6 @@ form textarea {
 	border-radius: 5px;
 	border: 1px solid #ccc;
 }
-
 form button {
 	background-color: #0f0202;
 	color: #fff;
@@ -79,4 +78,18 @@ form button:hover {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
+}
+
+.menu a:hover {
+    background-color: #eee;
+	
+    color: darkred;
+	border-radius: 8px
+}
+*::selection{
+	color: #eee;
+	background-color: #781f1f;
+}
+form input:focus{
+background-color: rgb(170, 71, 60);
 }

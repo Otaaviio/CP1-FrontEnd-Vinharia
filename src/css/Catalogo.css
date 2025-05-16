@@ -92,3 +92,15 @@ header h1 {
 		transform: translateX(0px);
 	}
 }
+
+.menu a:hover {
+    background-color: #eee;
+
+    color: darkred;
+	border-radius: 8px
+}
+
+*::selection{
+	color: #eee;
+	background-color: #781f1f;
+}
