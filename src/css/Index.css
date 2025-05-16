@@ -84,9 +84,15 @@ h1 {
 }
 
 .image {
-	width: 100%;
+	width: 500px;
 	height: auto;
 	border-radius: 10px;
+	transition: height 2s, width 2s;
+}
+
+.image:hover {
+	width: 90%;
+	height: 90%;
 }
 
 .item-button {
