@@ -92,3 +92,12 @@ thead {
 .Emoji::before{
 	content: "🍇 ";
 }
+
+.moldura {
+	border: solid 1px black;
+	top: 100px;
+}
+
+.transicao:hover{
+	transform: translate(10px, 20px);
+}
