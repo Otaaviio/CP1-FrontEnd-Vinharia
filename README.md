@@ -57,13 +57,47 @@ Abra o terminal e clone o repositório para a sua máquina:
 git clone https://github.com/Otaaviio/CP1-FrontEnd-Vinharia.git
 ```
 
-## 💫 **Efeitos Visuais**
+## 💫 Efeitos Visuais Implementados
 
--   Nas telas Catalogo e Home - .item-button:active:
-    -   Quando o botão é pressionado, ele cria um efeito de clique físico, movendo-se 2px para baixo e exibindo uma sombra na cor #800020.
--   Na tela Sobre - form button:hover:
-    -   Ao passar o cursor sobre o botão do formulário, o fundo muda para a cor vermelho escuro #a60000, destacando a interação.
--   Na tela Catálogo, foi aplicada uma animação CSS que faz os itens surgirem com suavidade:
-    -   Itens pares: deslizam da direita para o centro.
-    -   Itens ímpares: deslizam da esquerda para o centro.
-    -   A animação é suave, com duração de 1 segundo e efeito ease-out.
+O site da Vinheria Agnello conta com uma série de efeitos visuais que aprimoram a experiência do usuário e tornam a navegação mais agradável e interativa. Abaixo estão os principais recursos de estilo aplicados:
+
+### 🎯 Interações com Botões
+Botões nas páginas Catálogo e Home (.item-button:active)
+➤ Ao serem pressionados, os botões simulam um clique físico:
+    • Movem-se 2px para baixo
+    • Aplicam uma sombra em tom vinho escuro #800020
+
+Botão do formulário na página Sobre (form button:hover)
+➤ Ao passar o mouse, o botão muda de cor para #a60000 (vermelho escuro), evidenciando a ação de envio.
+
+### 🌬️ Animações de Entrada
+Página Catálogo:
+➤ Os itens surgem suavemente com uma animação personalizada:
+
+Itens em posições pares deslizam da direita para o centro
+
+Itens em posições ímpares deslizam da esquerda para o centro
+
+Tempo de animação: 1s com efeito ease-out
+
+### ✨ Outros Efeitos Visuais
+Navbar (:hover)
+➤ Destaque visual ao passar o cursor nos links de navegação.
+
+Inputs do formulário (:focus)
+➤ Estilização especial ao focar nos campos de texto, melhorando a acessibilidade.
+
+Seções "Uvas" e "Guia" (::before)
+➤ Elementos decorativos inseridos antes dos títulos, adicionando charme e identidade visual.
+
+Seleção de texto (::selection)
+➤ Seleção personalizada de textos com cores específicas da marca.
+
+Imagens interativas (:hover)
+➤ Aplicado nas imagens da Home e da aba Guia de Uvas, adicionando um leve zoom ou destaque ao passar o cursor.
+
+Logo da Home (transform: rotate)
+➤ A logo possui um leve efeito de rotação para criar dinamismo e simpatia visual.
+
+Elementos na aba Guia de Uvas (transform: translate)
+➤ Aplicado para transições suaves que deslocam elementos horizontalmente durante a navegação.
