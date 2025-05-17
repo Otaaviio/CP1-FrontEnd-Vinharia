@@ -69,18 +69,3 @@ main {
 	border-radius: 20px;
 	border: 1px dotted #daa520;
 }
-
-.menu a:hover {
-    background-color: #eee;
-
-    color: darkred;
-	border-radius: 8px
-}
-
-*::selection{
-	color: #eee;
-	background-color: #781f1f;
-}
-.Titulo::before{
-	content: "🍷 ";
-}
