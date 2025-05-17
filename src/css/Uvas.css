@@ -79,25 +79,8 @@ thead {
 	margin: auto;
 	text-align: center;
 }
-.menu a:hover {
-    background-color: #eee;
-
-    color: darkred;
-	border-radius: 8px
-}
-*::selection{
-	color: #eee;
-	background-color: #781f1f;
-}
-.Emoji::before{
-	content: "🍇 ";
-}
 
 .moldura {
 	border: solid 1px black;
 	top: 100px;
-}
-
-.transicao:hover{
-	transform: translate(10px, 20px);
 }
